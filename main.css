@@ -1,7 +1,6 @@
 
 body {
   background-color: purple;
-  max-width: 800px;
   margin: auto;
 }
 
@@ -9,8 +8,8 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 #full_fade {
@@ -23,16 +22,14 @@ body {
   transition: opacity 1s ease-in-out;
 }
 
-#result {
+/* #result {
   width: 800px;
   height: auto;
   padding-bottom: 230px;
   padding-top: 20px;
-  /* border: solid 1px black; */
   margin: auto;
   display: flex;
-  /* position: absolute; */
-}
+} */
 
 /* video {
  margin: auto;
